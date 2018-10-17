@@ -6,6 +6,21 @@ h1 {
   max-width: 250px;
   left: 50px;
   bottom: 400px;
+  opacity: 0;
+  animation: text 1s .3s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes text {
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+
 }
 
 #narwhal-body {
@@ -23,6 +38,23 @@ h1 {
 
   100% {
     stroke-dashoffset: 0%;
+  }
+}
+
+#narwhal-eye {
+  opacity: 0;
+  animation: narwhaleye 1s .3s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes narwhaleye {
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
 
