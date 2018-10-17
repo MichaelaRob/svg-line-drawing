@@ -1,5 +1,5 @@
 h1 {
-  font-family: 'Unica One', cursive;
+  font-family: "Unica One", sans-serif;
   position: absolute;
   z-index: 8;
   color: #fff;
@@ -39,6 +39,7 @@ h1 {
   100% {
     stroke-dashoffset: 0%;
   }
+
 }
 
 #narwhal-eye {
@@ -56,6 +57,7 @@ h1 {
   to {
     opacity: 1;
   }
+
 }
 
 #rainbow-violet {
@@ -74,6 +76,7 @@ h1 {
   100% {
     stroke-dashoffset: 0%;
   }
+
 }
 
 #rainbow-indigo {
@@ -92,6 +95,7 @@ h1 {
   100% {
     stroke-dashoffset: 0%;
   }
+
 }
 
 #rainbow-blue {
@@ -110,6 +114,7 @@ h1 {
   100% {
     stroke-dashoffset: 0%;
   }
+
 }
 
 #rainbow-green {
@@ -128,6 +133,7 @@ h1 {
   100% {
     stroke-dashoffset: 0%;
   }
+
 }
 
 #rainbow-yellow {
@@ -146,6 +152,7 @@ h1 {
   100% {
     stroke-dashoffset: 0%;
   }
+
 }
 
 #rainbow-orange {
@@ -164,6 +171,7 @@ h1 {
   100% {
     stroke-dashoffset: 0%;
   }
+
 }
 
 #rainbow-red {
@@ -182,4 +190,5 @@ h1 {
   100% {
     stroke-dashoffset: 0%;
   }
+
 }
